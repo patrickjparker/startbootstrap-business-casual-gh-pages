@@ -59,6 +59,18 @@ color:#000;
     font-size: xx-small;
 }
 
+@media only screen and (max-width: 425px) {
+    .section-heading .section-heading-lower {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 426px) {
+    .section-heading .section-heading-lower {
+        font-size: 2rem;
+    }
+}
+
 /*hex code colors
 blue: #5782A7;
 light blue: #87A6C0; rgb(135,166,192)
