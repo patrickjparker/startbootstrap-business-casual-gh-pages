@@ -1,0 +1,44 @@
+-No favicon
+-Not encrypted
+-Lots of copied colors
+
+(stylistic suggestions)
+*Footer is huge*
+*Add a slight shadow to pictures in gallary and add a slight white background elements placed directly against background*
+
+Small issues with moble version
+-Whole screen moves when you swipe side to side
+    --index--
+   -picture above the box (not bad but considered stylistic choice)
+   -word "care instructions overflow
+
+    --gallary--
+   -No background behind tic tok thing
+   -Menu button broken
+
+    --Resume--
+   -Side nav bars in a bad spot
+   -Text indented way to far
+   -Menu button broken
+
+    --About--
+   -Menu button broken
+
+    --Tableau--
+   -Formatting mess
+
+Medium screen issue
+
+   --index--
+   -Main picture may be too covered
+   
+
+   --Resume--
+   -Same side nav issue
+
+   --About--
+   -Same picture issue by 'contact me' section
+
+   --Tableau--
+   -Same issues as mobile version
+

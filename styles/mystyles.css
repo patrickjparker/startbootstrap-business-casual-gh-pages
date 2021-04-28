@@ -1,0 +1,66 @@
+a{
+    color: #000;
+    text-decoration:none;
+}
+
+a:hover{text-decoration:underline;
+color:#000;
+}
+
+.overridebutton:hover, .overridebutton:focus, .overridebutton:active {
+    background-color:#5782A7;
+    border-color:#5782A7;
+}
+
+.bold{
+    font-weight:bold;
+    font-style:normal;
+}
+
+.italic{
+    font-weight:normal;
+    font-style:italic;
+}
+
+.underline{text-decoration:underline;} 
+.unbulleted{list-style-type:none;}
+.uncenter{text-align:left;}
+
+.pagebackground{background-image:url('../images/background.jpg');}
+
+.kennacustomsheader{ /*overrides the brown header theme*/
+    background-color:#5782A7;
+    font-family: Raleway;
+    font-weight: bold;
+}
+
+.kennacustomsfooter{ /*overrides the brown footer theme*/
+    background-color:#5782A7;
+}
+
+.kennacustomsbackground{
+    background-color:rgb(135,166,192,0.7) /*using rgb fromat to set background transparency to 0.7*/
+
+}
+
+.kennacustomstitle {color: #87A6C0!important;}
+
+.overridebutton {
+    background-color:#87A6C0;
+    border-color: #87A6C0;
+}
+
+.resumemenu {
+    width:240px;
+    position:fixed;
+}
+
+.textsize {
+    font-size: xx-small;
+}
+
+/*hex code colors
+blue: #5782A7;
+light blue: #87A6C0; rgb(135,166,192)
+taupe: #AA9183
+*/

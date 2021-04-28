@@ -1,0 +1,123 @@
+body{
+    margin:0px;
+}
+
+a{
+    color:#9ebfda;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+/* implimenting css styling for common design elements from bootstrap */
+a:hover, a:active, a:focus {text-decoration:none;
+    color:white;
+    font-weight:bold;
+    }
+
+.tableaubackground {
+    background-image:url('../images/background.jpg');
+    background-size: 1600px;
+    background-position:top;
+    background-repeat:unset;
+}
+
+.tableauheader {
+    height: 50px;
+    top:0;
+    left:0;
+    right:0;
+    background-color:#5782A7;
+}
+
+.common {
+    position:absolute;
+}
+
+.mainbody{
+    bottom: 64px;
+    left: 65px;
+    max-width: 1400px;
+    width: 1400px;
+    padding-bottom: 50px;
+    overflow-x: auto;
+    z-index: 0;
+}
+
+
+.tableaufooter {
+        bottom: 0;
+        height: 118px;
+        left: 0;
+        right: 0;
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.3);
+        text-align: center;
+        background-color:#5782A7;
+        position:relative;
+}
+
+.smalltext {
+    padding-top: 52px;
+    font-size: 14;
+    font-weight: 400;
+    text-align:center;
+}
+
+.container {
+    padding-top: 30px;
+    padding-left: 480px;
+}
+
+.textbox {
+    background-color: #5782A7;
+    color:#9ebfda;
+    font-size: 14;
+    font-weight: 400;
+    text-align:center!important;
+    position:relative;
+    width:max-content;
+}
+
+/* textbox caption positioning */
+.text0 {
+    top: 250px;
+    left: 1200px;
+    z-index: 2;
+    padding: 5px;
+}
+
+.text1 {
+    top: 720px;
+    left: 50px;
+    z-index: 2;
+}
+
+.text2 {
+    top: 685px;
+    left: 1200px;
+    z-index: 2;
+}
+
+.text3 {
+    top: 1040px;
+    left: 250px;
+    z-index: 2;
+}
+
+.text4 {
+    top: 1020px;
+    left: 1140px;
+    z-index: 2;
+}
+
+.tabs {
+    color:#87A6C0;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align:center!important;
+    position: relative;
+    padding-left: 25px;
+    padding-right:25px;
+}
