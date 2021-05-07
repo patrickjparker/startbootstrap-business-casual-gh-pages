@@ -36,6 +36,7 @@ color:#000;
 
 .kennacustomsfooter{ /*overrides the brown footer theme*/
     background-color:#5782A7;
+    padding: .6rem!important;
 }
 
 .kennacustomsbackground{
@@ -59,16 +60,78 @@ color:#000;
     font-size: xx-small;
 }
 
-@media only screen and (max-width: 425px) {
+.product-item-img {
+    box-shadow: 0 0 3px white;
+}
+
+.side-nav .intro-button {
+    position: relative;
+    z-index: 99;
+}
+
+@media only screen and (max-width: 370px) {
     .section-heading .section-heading-lower {
         font-size: 1.5rem;
     }
+
+    .resume ul,
+    .resume ol {
+        padding-left: .7rem!important;
+    }
+
+    .cta .cta-inner {
+        padding: 1rem 2.2rem 3rem 1.8rem;
+    }
 }
 
-@media only screen and (max-width: 600px) and (min-width: 426px) {
+@media only screen and (max-width: 600px) and (min-width: 371px) {
     .section-heading .section-heading-lower {
         font-size: 2rem;
     }
+
+    .resume ul,
+    .resume ol {
+        padding-left: 1.2rem!important;
+    }
+
+    .cta .cta-inner {
+        padding: 1rem 1.5rem 3rem 1.1rem!important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .intro .intro-text {
+        width: 90%;
+        margin: -2rem auto 0 auto;
+        z-index: 99;
+        position: relative;
+    }
+
+    .cta .cta-inner {
+        padding: 3rem 2.2rem 3rem 1.8rem;
+    }
+
+    .resume ol {
+        padding-left: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1295px) and (min-width: 993px) {
+    
+    .intro .intro-text {
+        width: 50%;
+        padding: 3rem 2rem!important;
+    }
+    
+    .intro .intro-img {
+        width: 70%;
+    }
+
+    .gallary .intro-text{
+        margin-top: -2rem;
+        width: 45%;
+    }
+    
 }
 
 /*hex code colors
