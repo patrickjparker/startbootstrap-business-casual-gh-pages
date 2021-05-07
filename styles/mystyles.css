@@ -36,7 +36,6 @@ color:#000;
 
 .kennacustomsfooter{ /*overrides the brown footer theme*/
     background-color:#5782A7;
-    padding: .6rem!important;
 }
 
 .kennacustomsbackground{
@@ -58,15 +57,6 @@ color:#000;
 
 .textsize {
     font-size: xx-small;
-}
-
-.product-item-img {
-    box-shadow: 0 0 3px white;
-}
-
-.side-nav .intro-button {
-    position: relative;
-    z-index: 99;
 }
 
 @media only screen and (max-width: 370px) {
@@ -100,7 +90,8 @@ color:#000;
 }
 
 @media only screen and (max-width: 992px) {
-    .intro .intro-text {
+    .intro .intro-text,
+    .container .about-heading-content {
         width: 90%;
         margin: -2rem auto 0 auto;
         z-index: 99;
